@@ -4,6 +4,8 @@ By Brittney Nitta-Lee
 
 Date: April 21, 2023
 
+This notebook is intended for educational purposes, all scenarios are hypothetical and intended to satisfy an academic assignment.
+
 # Introduction 
 By providing technology access to low-income households, this project aims to bridge the digital divide in Seattle and offer opportunities to those who may otherwise be left behind. The final model, trained on a dataset from the City of Seattle, solves the problem with 97% accuracy.
 
