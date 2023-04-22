@@ -68,6 +68,32 @@ In the training data, both classes have a perfect precision, recall, and F1-scor
 
 In the test data, class 1 has a high precision, recall, and F1-score of 0.99, indicating that the model accurately predicted most of the positive cases. However, class 2 has a lower precision, recall, and F1-score of 0.97, 0.92, and 0.95, respectively, indicating that the model misclassified some of the positive cases in this class.
 
-The confusion matrices show that the model is correctly identifying the majority of the observations. In the training data, all 1190 of the class 1 observations are correctly classified, as are all 133 of the class 2 observations. In the test data, there is one false negative (class 2 observation misclassified as class 1) and three false positives (class 1 observations misclassified as class 2), but overall the model is correctly identifying the vast majority of observations.
+The confusion matrix show that the model is correctly identifying the majority of the observations. In the training data, all 1190 of the class 1 observations are correctly classified, as are all 133 of the class 2 observations. In the test data, there is one false negative (class 2 observation misclassified as class 1) and three false positives (class 1 observations misclassified as class 2), but overall the model is correctly identifying the vast majority of observations.
 
 # Feature Importance
+
+From the XGBoost model, the top 10 features were selected based on feature importance. The feature importance provides a score for each feature that indicates how useful or valuable each feature was in the build of the boosted decision trees within the model. The more a feature is used to make decisions, the higher its relative importance.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Feature_importance.png" width="1000">
+
+# List of Features
+
+- `q6R`: How would you rate the adequacy of the internet connection and speeds in the place where you live when it comes to your ability to do the tasks you want and need to do on the internet?
+
+- `q2a_2`: Please tell us about the technology devices you have in the place where you live. Does your household have one or more of each of these?
+
+- `q4_1`: What are all the ways you get internet in the place where you live?
+
+- `q7`: Q7. What is the download speed of the internet connection in the place where you live? If you have more than one source, please select the fastest speed you have access to.
+
+- `q2a_5`: Please tell us about the technology devices you have in the place where you live. Does your household have one or more of each of these?
+
+- `q12a_3`: Know of or use low cost internet service - Mobile Citizen / InterConnection: $120 per year internet.
+
+- `q16c_16`: How often does anyone in your household - Look for answers to computer problems online.
+
+- `INCOME`: Income categories
+
+- `q2bb_1`: Thinking about each type of device you have in the place where you live; how did your household get each type of device?
+
+- `samplegroup`: Sample group of survey respondents
