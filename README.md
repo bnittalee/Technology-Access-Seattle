@@ -148,3 +148,4 @@ Links to Notebooks and presentation are below:
 - [Models](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Models.ipynb) 
 - [Evaluation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Evaluation.ipynb)
 - Presentation 
+- [Reproduction](https://hub.gke2.mybinder.org/user/bnittalee-techn--access-seattle-27czhmoz/lab)
