@@ -97,3 +97,45 @@ From the XGBoost model, the top 10 features were selected based on feature impor
 - `q2bb_1`: Thinking about each type of device you have in the place where you live; how did your household get each type of device?
 
 - `samplegroup`: Sample group of survey respondents
+
+# Visualizations 
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Feature_importance.png" width="1000">
+
+Although individuals without internet cannot respond to this survey question, the high response count for "Mostly Adequate" and "Completely Adequate" among those with internet access suggests that they are generally satisfied with their internet connection speeds.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Access_to_devices.png" width="1000">
+
+All low-income survey respondents have access to devices and the highest count of devices are laptop computers, following desktop computers. Households who do not have internet access to have some type of device to access the internet.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Final_access_to_internet.png" width="1000">
+
+Households who do have internet access in their home use Comcast as their service provider. A very small percentage of those who do access the internet in their home uses a Cellular Data plan.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Internet_connection_download.png" width="1000">
+
+This was really interesting to see that majority of the survey respondents don't know their internet speed. But, those who do know have at the most 100 Mbps, which is not adequate for large household sizes.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/household_income_internet.png" width="1000">
+
+The low-income dataset comprises individuals in Seattle who responded to the survey. Most of these individuals have access to the internet, but the cost of internet services may be burdensome to their monthly income. Additionally, it is noteworthy that the majority of residents reported internet speeds of 100 Mbps provided by Comcast.
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/low_cost_internet.png" width="1000">
+
+The majority of respondents were unaware of the availability of affordable internet services. At that time, Mobile Citizen and InterConnection were providing internet services for $120 per year. The respondents who were unaware of this offer might be using internet services from other providers and possibly paying the full monthly price.
+
+# Recommendations 
+I strongly recommend that Congress make the internet a public utility, especially in light of the COVID-19 pandemic. The data may be from 2018, but the pandemic has underscored the importance of affordable and universal internet access. Without access, individuals are left behind in society and are unable to access essential services such as healthcare, education, work and more.
+
+Here are my other recommendations:
+
+1. Survey should be conducted in multiple languages
+2. Look into free in-unit connectivity for low-income households
+3. Bring awareness to free or low-cost internet programs
+4. Limit the number of survey questions
+
+# Next Steps
+To bridge the digital gap among low-income households, it is imperative to collect comprehensive data from all such households in the US. This will enable Congress to take proactive steps towards providing free internet access to these households, complete with sufficient download speeds that are tailored to their respective household sizes and number of devices.
+
+# For More Information 
+Contact Brittney Nitta-Lee at [bnittalee@gmail.com] 
