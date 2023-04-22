@@ -142,8 +142,9 @@ Contact Brittney Nitta-Lee at [bnittalee@gmail.com]
 
 # Repository Navigation 
 Links to Notebooks and presentation are below: 
-[Notebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Notebook.ipynb)
-[Exploratory Data Analysis](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/EDA.ipynb) 
-[Models](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Models.ipynb) 
-[Evaluation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Evaluation.ipynb)
-Presentation 
+- [Notebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Notebook.ipynb)
+
+- [Exploratory Data Analysis](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/EDA.ipynb) 
+- [Models](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Models.ipynb) 
+- [Evaluation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Evaluation.ipynb)
+- Presentation 
