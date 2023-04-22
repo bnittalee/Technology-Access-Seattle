@@ -60,7 +60,7 @@ The Test Report Matrix shows the same metrics for both classes on the test datas
 
 The final model that was used and evaluated was the XG Boost model. The XG Boost model is a popular and powerful tool for machine learning and can be used for a wide range of problems. After conducting a grid search and hyptertuning the parameters the results were very close to the baseline model.  
 
-<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/XGBoost.png" width="500">
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/XGBoost.png" width="1000">
 
 The model performed very well, with an accuracy of 1.0 on the training data and 0.987 on the test data. The best score obtained through the grid search is 0.997, which is close to 1.0 and indicates that the model is doing a good job of fitting the data.
 
@@ -70,4 +70,4 @@ In the test data, class 1 has a high precision, recall, and F1-score of 0.99, in
 
 The confusion matrices show that the model is correctly identifying the majority of the observations. In the training data, all 1190 of the class 1 observations are correctly classified, as are all 133 of the class 2 observations. In the test data, there is one false negative (class 2 observation misclassified as class 1) and three false positives (class 1 observations misclassified as class 2), but overall the model is correctly identifying the vast majority of observations.
 
-Overall, the model appears to be performing very well and is a good candidate to use for future analysis.
+# Feature Importance
