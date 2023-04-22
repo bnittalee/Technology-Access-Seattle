@@ -49,3 +49,25 @@ There are 1483 households with internet access and 171 households without intern
 The baseline model that was used is a Logistic Regression model. The evaluation metrics that were used to compare with the advanced models are precision, recall, F1-score and accuracy. 
 
 <img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Baseline_report_matrix.png" width="500">
+
+The baseline model performs well on both the training and test datasets. Class 1 are households who do have internet access and class 2 are households who do not have internet access.
+
+The Training Report Matrix shows Class 1 has perfect precision and recall of 1.00 and 0.99, while Class 2 has a lower precision and perfect recall of 1.00. The macro avg and weighted avg f1-score for both classes are high at 0.99, which shows excellent peformance.
+
+The Test Report Matrix shows the same metrics for both classes on the test dataset. Class 1 has a precision of 0.99 and a recall of 0.98, while class 2 has a precision of 0.87 and a recall of 0.89. The lower performance for class 2 may indicate that the model is struggling to accurately predict this class due to a smaller number of samples or class imbalance in the test dataset. The macro avg and weighted avg f1-score are slightly lower at 0.93, indicating good performance.
+
+# XG Boost Model  
+
+The final model that was used and evaluated was the XG Boost model. The XG Boost model is a popular and powerful tool for machine learning and can be used for a wide range of problems. After conducting a grid search and hyptertuning the parameters the results were very close to the baseline model.  
+
+<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/XGBoost.png" width="500">
+
+The model performed very well, with an accuracy of 1.0 on the training data and 0.987 on the test data. The best score obtained through the grid search is 0.997, which is close to 1.0 and indicates that the model is doing a good job of fitting the data.
+
+In the training data, both classes have a perfect precision, recall, and F1-score of 1.00, indicating that the model predicted all positive cases accurately.
+
+In the test data, class 1 has a high precision, recall, and F1-score of 0.99, indicating that the model accurately predicted most of the positive cases. However, class 2 has a lower precision, recall, and F1-score of 0.97, 0.92, and 0.95, respectively, indicating that the model misclassified some of the positive cases in this class.
+
+The confusion matrices show that the model is correctly identifying the majority of the observations. In the training data, all 1190 of the class 1 observations are correctly classified, as are all 133 of the class 2 observations. In the test data, there is one false negative (class 2 observation misclassified as class 1) and three false positives (class 1 observations misclassified as class 2), but overall the model is correctly identifying the vast majority of observations.
+
+Overall, the model appears to be performing very well and is a good candidate to use for future analysis.
