@@ -141,7 +141,9 @@ To bridge the digital gap among low-income households, it is imperative to colle
 # For More Information 
 Contact Brittney Nitta-Lee at [bnittalee@gmail.com] 
 
-# Repository Navigation 
+# Repository Structure
+
+# Additional resources  
 Links to Notebooks and presentation are below: 
 - [Notebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Notebook.ipynb)
 
@@ -149,4 +151,6 @@ Links to Notebooks and presentation are below:
 - [Models](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Models.ipynb) 
 - [Evaluation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Evaluation.ipynb)
 - Presentation 
-- [Reproduction](https://hub.gke2.mybinder.org/user/bnittalee-techn--access-seattle-27czhmoz/lab)
+
+# Reproduction Instructions
+[Reproduction](https://hub.gke2.mybinder.org/user/bnittalee-techn--access-seattle-27czhmoz/lab)
