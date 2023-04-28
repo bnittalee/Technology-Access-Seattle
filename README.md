@@ -101,8 +101,6 @@ From the XGBoost model, the top 10 features were selected based on feature impor
 
 # Visualizations 
 
-<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Feature_importance.png" width="1000">
-
 Although individuals without internet cannot respond to this survey question, the high response count for "Mostly Adequate" and "Completely Adequate" among those with internet access suggests that they are generally satisfied with their internet connection speeds.
 
 <img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Access_to_devices.png" width="1000">
