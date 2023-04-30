@@ -170,6 +170,6 @@ Download the dataset and code below:
 
 [Technology Access and Adoption Survey Codebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Data/Technology_Access_and_Adoption_Survey_2018_Codebook.csv) 
 
-The enivronment requirements is in the `requirements.txt1 file`
+The enivronment requirements is in the `requirements.txt` file
 
 
