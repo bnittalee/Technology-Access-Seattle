@@ -2,7 +2,7 @@
 <img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/marvin-meyer-SYTO3xs06fU-unsplash.jpg" width="1000">
 By Brittney Nitta-Lee
 
-Date: April 21, 2023
+Date: May 2, 2023
 
 
 # Introduction 
@@ -147,7 +147,7 @@ Links to Notebooks and presentation are below:
 - [Exploratory Data Analysis](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/EDA.ipynb) 
 - [Models](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Models.ipynb) 
 - [Evaluation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Evaluation.ipynb)
-- Presentation 
+- [Presentation](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/PDFS/Presentation.pdf)
 
 # Reproduction Instructions
 [Reproduction](https://hub.gke2.mybinder.org/user/bnittalee-techn--access-seattle-27czhmoz/lab)
