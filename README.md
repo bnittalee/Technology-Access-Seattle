@@ -6,9 +6,8 @@ Date: April 21, 2023
 
 
 # Introduction 
-By providing technology access to low-income households, this project aims to bridge the digital divide in Seattle and offer opportunities to those who may otherwise be left behind. The final model, trained on a dataset from the City of Seattle, solves the problem with 97% accuracy.
+This project aims to bridge the digital divide in Seattle and offer opportunities to those who may otherwise be left behind. The final model, trained on a dataset from the City of Seattle, solves the problem with 97% accuracy.
 
-# Business Understanding 
 Seattle is a technology-driven city with existing research on digital equity and technology access, including data on the digital divide among low-income households. As an employee of a Public Housing Authority that serves low-income residents, I have witnessed firsthand the negative impact of a lack of technology access on individuals and their ability to participate in society. The motivation for this project is to contribute to ongoing efforts to address the digital divide and promote digital equity among low-income residents in Seattle.
 
 # Data Understanding 
@@ -44,7 +43,7 @@ All eligible respondents are:
 
 <center><img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Internet_access_1.png" width="500"></center>
 
-There are 1483 households with internet access and 171 households without internet access. While the number of households with internet access is relatively low.
+There are 1483 households with internet access and 171 households without internet access. In comparison, the number of households with internet access is relatively low.
 
 # Modeling
 The baseline model that was used is a Logistic Regression model. The evaluation metrics that were used to compare with the advanced models are precision, recall, F1-score and accuracy. 
@@ -100,8 +99,6 @@ From the XGBoost model, the top 10 features were selected based on feature impor
 - `samplegroup`: Sample group of survey respondents
 
 # Visualizations 
-
-<img src="https://github.com/bnittalee/Technology-Access-Seattle/blob/main/IMAGES/Feature_importance.png" width="1000">
 
 Although individuals without internet cannot respond to this survey question, the high response count for "Mostly Adequate" and "Completely Adequate" among those with internet access suggests that they are generally satisfied with their internet connection speeds.
 
