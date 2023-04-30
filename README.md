@@ -140,6 +140,18 @@ Contact Brittney Nitta-Lee at [bnittalee@gmail.com]
 
 # Repository Structure
 
+├── Data/
+├── IMAGES/
+├── PDFS
+├── .DS_Store
+├── .gitattributes
+├── EDA.ipynb
+├── Evaluation.ipynb
+└── Models.ipynb
+└── Notebook.ipynb
+└── README.md
+└── requirements.txt
+
 # Additional resources  
 Links to Notebooks and presentation are below: 
 - [Notebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Notebook.ipynb)
@@ -151,3 +163,13 @@ Links to Notebooks and presentation are below:
 
 # Reproduction Instructions
 [Reproduction](https://hub.gke2.mybinder.org/user/bnittalee-techn--access-seattle-27czhmoz/lab)
+
+Download the dataset and code below:
+
+[2018 Technology Access and Adoption Survey](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Data/Seattle%20IT%20Connectedness%20Study_Mail%20Version.pdf)
+
+[Technology Access and Adoption Survey Codebook](https://github.com/bnittalee/Technology-Access-Seattle/blob/main/Data/Technology_Access_and_Adoption_Survey_2018_Codebook.csv) 
+
+The enivronment requirements is in the `requirements.txt1 file 
+
+
