@@ -140,8 +140,9 @@ Contact Brittney Nitta-Lee at [bnittalee@gmail.com]
 
 # Repository Structure
 
-├── Data/
-├── IMAGES/
+```
+├── Data
+├── IMAGES
 ├── PDFS
 ├── .DS_Store
 ├── .gitattributes
@@ -151,6 +152,7 @@ Contact Brittney Nitta-Lee at [bnittalee@gmail.com]
 └── Notebook.ipynb
 └── README.md
 └── requirements.txt
+```
 
 # Additional resources  
 Links to Notebooks and presentation are below: 
