@@ -45,6 +45,9 @@ All eligible respondents are:
 
 There are 1483 households with internet access and 171 households without internet access. In comparison, the number of households with internet access is relatively low.
 
+#SMOTE
+To address the class imbalance, I utilized SMOTE (Synthetic Minority Over-sampling Technique), which is a technique for oversampling imbalanced datasets. This helped improve the performance of the machine learning models and helps with better representation of the minority class, reduced bias and no loss of information.
+
 # Modeling
 The baseline model that was used is a Logistic Regression model. The evaluation metrics that were used to compare with the advanced models are precision, recall, F1-score and accuracy. 
 
